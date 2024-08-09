@@ -4,7 +4,11 @@ on:
   push:
   schedule:
     # 定期実行する分, 時, 日, 月, 曜日を設定
+<<<<<<< HEAD
     - cron: '0 16 1 * *'
+=======
+    - cron: '0 23 * * *'
+>>>>>>> f13ec02f4571ca797ec77df29ad5ec2769a76e47
 
 jobs:
   build:
